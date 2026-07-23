@@ -148,8 +148,9 @@ $headers = [
 $sent = @mail(EMAIL_TO, $subject, $body, implode("\r\n", $headers));
 
 if (!$sent) {
-    error_log('contact.php: mail() failed sending message from ' . $email);
-    respond(500, false, 'Message could not be sent. Please email ' . EMAIL_TO . ' directly.');
+    $err = error_get_last();
+    error_log('contact.php: mail() failed sending message from ' . $email . ' — ' . ($err['message'] ?? 'unknown error'));
+    respond(500, false, 'Message could not be sent. Please try again shortly or reach out via LinkedIn.');
 }
 
 respond(200, true, 'Message sent. I will get back to you within a couple of days.');

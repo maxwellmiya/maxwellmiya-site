@@ -84,11 +84,11 @@
           status.textContent = data.message || 'Message sent.';
           status.className = 'form-status ok';
         } else {
-          status.textContent = data.message || 'Something went wrong. Please email maxwell.miya@gmail.com instead.';
+          status.textContent = data.message || 'Something went wrong. Please try again shortly or reach out via LinkedIn.';
           status.className = 'form-status err';
         }
       } catch (err) {
-        status.textContent = 'Network error. Please email maxwell.miya@gmail.com instead.';
+        status.textContent = 'Network error. Please try again shortly or reach out via LinkedIn.';
         status.className = 'form-status err';
       } finally {
         submitBtn.disabled = false;
