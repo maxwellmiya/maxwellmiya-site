@@ -577,9 +577,22 @@ a:hover { color: var(--accent); }
 .link-icon {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
-.link-icon svg { flex-shrink: 0; }
+.link-icon svg {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border-radius: 8px;
+  background: rgba(10, 102, 194, 0.15);
+  color: #0A66C2;
+  transition: background .18s ease, transform .18s ease;
+}
+.link-icon:hover svg {
+  background: rgba(10, 102, 194, 0.3);
+  transform: translateY(-1px);
+}
 
 .contact-form {
   background: var(--bg);
