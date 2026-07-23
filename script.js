@@ -8,6 +8,23 @@
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
+  // ---------- clean URLs: scroll to in-page sections without leaving #hash in the address bar ----------
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      const id = link.getAttribute('href').slice(1);
+      const target = id ? document.getElementById(id) : document.body;
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    });
+  });
+  if (window.location.hash) {
+    const target = document.getElementById(window.location.hash.slice(1));
+    if (target) target.scrollIntoView({ block: 'start' });
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  }
+
   // ---------- mobile nav ----------
   const toggle = document.getElementById('navToggle');
   const links  = document.getElementById('navLinks');
