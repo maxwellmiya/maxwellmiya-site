@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Maxwell Miya — Cloud, Infrastructure & Security Engineer</title>
+<meta name="description" content="Maxwell Miya — Cloud, Infrastructure & Security Engineer. I build and secure the systems businesses run on, and help organisations realise the full value of the technology they already own." />
+
+<!-- Open Graph / LinkedIn preview -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Maxwell Miya — Cloud, Infrastructure & Security Engineer" />
+<meta property="og:description" content="I build and secure the systems businesses run on — and help organisations realise the full value of the technology they already own." />
+<meta property="og:url" content="https://maxwellmiya.com" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- =============== NAV =============== -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="Maxwell Miya, home">
+      <span class="brand-mark">MM</span>
+      <span class="brand-text">Maxwell Miya</span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- =============== HERO =============== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Cloud · Infrastructure · Security</p>
+      <h1>I build and secure the systems businesses run&nbsp;on.</h1>
+      <p class="lede">
+        And I help organisations realise the full value of the technology they already own. My work sits where infrastructure, cloud, security, and automation meet: turning fragmented tools into integrated systems, manual work into automation, and unquantified risk into measurable posture.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="cv/Maxwell_Miya_CV.pdf" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download CV
+        </a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+      <ul class="meta-row">
+        <li><span class="meta-dot"></span> Nairobi, Kenya (UTC+3)</li>
+        <li>Open to remote &amp; relocation</li>
+        <li>EU Blue Card eligible</li>
+      </ul>
+    </div>
+    <div class="hero-side">
+      <div class="stat-card">
+        <div class="stat">
+          <span class="stat-num">10<span class="plus">+</span></span>
+          <span class="stat-label">years across cloud, infrastructure &amp; security</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">15</span>
+          <span class="stat-label">active professional certifications</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">industries: manufacturing, finance, agriculture, healthcare, hospitality, consulting</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== PROJECTS =============== -->
+<section id="projects" class="section">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">Signature projects</p>
+      <h2>Selected work.</h2>
+      <p class="section-lede">Four projects that show how I think and what I ship. Sector detail is generalised to respect client confidentiality; the technical depth is real.</p>
+    </header>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project">
+        <div class="project-head">
+          <span class="project-num">01</span>
+          <span class="project-tag">Security operations</span>
+        </div>
+        <h3>Enterprise threat-visibility platform</h3>
+        <p class="project-context">Manufacturing · East Africa · 2025 – Present · CloudIT Limited</p>
+        <p class="project-body">
+          Led the design and deployment of a centralised threat-visibility and infrastructure observability platform for a major East African manufacturer, unifying endpoint, network, and security telemetry into a single operational architecture.
+        </p>
+        <p class="project-body">
+          Integrated Sophos XDR with Cisco Meraki, Cisco ISE, Cisco Firepower, and endpoint telemetry so that the client's IT team could detect, investigate, and correlate events across network and endpoint from one console. Layered ManageEngine OpManager and Firewall Analyzer alongside for performance monitoring, log analytics, and firewall-policy governance.
+        </p>
+        <p class="project-body">
+          <strong>Notable troubleshooting.</strong> Resolved a three-week log-ingestion failure by tracing the fault to Nutanix network isolation dropping traffic to the collector's secondary syslog IP — an easy fault to misdiagnose at the application layer. Root cause identification and controlled whitelisting restored ingestion.
+        </p>
+        <ul class="chip-row">
+          <li>Sophos XDR</li><li>Cisco Meraki</li><li>Cisco ISE</li><li>Cisco Firepower</li><li>ManageEngine</li><li>Nutanix</li>
+        </ul>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project">
+        <div class="project-head">
+          <span class="project-num">02</span>
+          <span class="project-tag">Modern workplace</span>
+        </div>
+        <h3>Microsoft 365 &amp; endpoint security transformation</h3>
+        <p class="project-context">Compliance consultancy · Multi-country · 2023 – 2024 · Ethical Trade Services Africa</p>
+        <p class="project-body">
+          Led the end-to-end Microsoft 365 modernisation and security programme for a distributed compliance consultancy — 60+ users across multiple East African countries, migrated from legacy on-premises messaging to a fully governed Microsoft cloud workplace.
+        </p>
+        <p class="project-body">
+          Delivered Exchange Online, SharePoint Online, and Microsoft Teams; configured Microsoft Entra ID with Conditional Access, MFA, and identity governance; deployed Intune across ~100 Windows endpoints with compliance and configuration policies; implemented Microsoft Defender for Endpoint and Purview DLP. Configured SPF, DKIM, and DMARC for authenticated mail flow.
+        </p>
+        <p class="project-body">
+          <strong>Approach.</strong> Staged Conditional Access in report-only mode with clear rollback paths, aligned compliance policies to device reality before enforcing access restrictions, and treated adoption and support as part of the technical implementation rather than a post-project activity.
+        </p>
+        <ul class="chip-row">
+          <li>Microsoft 365</li><li>Entra ID</li><li>Intune</li><li>Defender for Endpoint</li><li>Conditional Access</li><li>SPF/DKIM/DMARC</li><li>Microsoft Purview DLP</li>
+        </ul>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project">
+        <div class="project-head">
+          <span class="project-num">03</span>
+          <span class="project-tag">Cloud-native software</span>
+        </div>
+        <h3>Cloud-native financial management platform</h3>
+        <p class="project-context">Compliance consultancy · 2023 – Present · Ethical Trade Services Africa</p>
+        <p class="project-body">
+          Architected and built a cloud-native financial management platform on Google Cloud Platform and Firebase / Firestore to replace spreadsheet-driven budgeting, approvals, and reconciliation across 5+ departments.
+        </p>
+        <p class="project-body">
+          Designed the data model, workflow states, permissions, and validation rules from the underlying business processes, then developed the platform end to end. Implemented request-approval-reconciliation flows with role separation, timestamps, and traceability. Added AI-driven forecasting as decision support — deliberately positioned as an aid to management judgement, not a substitute for financial approval.
+        </p>
+        <p class="project-body">
+          This is the pattern I most enjoy: identifying an operational problem, translating it into a secure and supportable architecture, and building the platform when packaged tools do not fit.
+        </p>
+        <ul class="chip-row">
+          <li>Google Cloud Platform</li><li>Firebase</li><li>Firestore</li><li>Data modelling</li><li>RBAC</li><li>AI integration</li>
+        </ul>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project">
+        <div class="project-head">
+          <span class="project-num">04</span>
+          <span class="project-tag">Greenfield delivery</span>
+        </div>
+        <h3>Greenfield enterprise technology foundation</h3>
+        <p class="project-context">Manufacturing · 2022 – 2023 · Origen Fresh Africa EPZ</p>
+        <p class="project-body">
+          Delivered the complete technology foundation for a new manufacturing operation — infrastructure, security, ERP, VoIP, networking, and cloud workplace — from cabling and rack-and-stack through domain configuration, Group Policy design, and ongoing administration.
+        </p>
+        <p class="project-body">
+          Scope included Windows Server and Active Directory (AD DS, GPOs, OU design, Kerberos), Sophos firewall/VPN and XDR, Odoo ERP, Grandstream VoIP, structured cabling and switching, backup and disaster recovery, and Google Workspace onboarding for 50+ users with automated provisioning that cut deployment time by 60%.
+        </p>
+        <p class="project-body">
+          <strong>Delivered at full operational readiness and 15% under the allocated budget</strong> — a result of disciplined scoping, phased implementation, and honest trade-off decisions on procurement.
+        </p>
+        <ul class="chip-row">
+          <li>Windows Server</li><li>Active Directory</li><li>Group Policy</li><li>Sophos</li><li>Odoo ERP</li><li>Google Workspace</li><li>Backup &amp; DR</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- =============== SKILLS =============== -->
+<section id="skills" class="section section-alt">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">Technical depth</p>
+      <h2>What I work with.</h2>
+      <p class="section-lede">Grouped by capability rather than tool count. Depth is uneven across categories — this is honest, not exhaustive.</p>
+    </header>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Cloud &amp; modern workplace</h3>
+        <ul>
+          <li>Microsoft 365</li><li>Microsoft Azure</li><li>Google Cloud Platform</li><li>Google Workspace</li>
+          <li>SharePoint Online</li><li>Exchange Online</li><li>Microsoft Teams</li>
+          <li>Microsoft Entra ID</li><li>Microsoft Intune</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Cybersecurity</h3>
+        <ul>
+          <li>Sophos XDR &amp; Firewall</li><li>Microsoft Defender / XDR</li><li>Microsoft Purview / DLP</li>
+          <li>Conditional Access</li><li>IAM (Entra ID, Auth0, Okta concepts)</li>
+          <li>Email security (SPF, DKIM, DMARC, EOP)</li>
+          <li>Firewall governance</li><li>Vulnerability &amp; patch management</li><li>Duo Security</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Infrastructure &amp; networking</h3>
+        <ul>
+          <li>Windows Server (AD DS, GPO, RDS, Kerberos)</li>
+          <li>VMware vCenter</li><li>Nutanix</li><li>Hyper-V (concepts)</li>
+          <li>Veeam Backup &amp; Replication</li><li>Backup &amp; DR design</li>
+          <li>Cisco (Meraki / ISE / Firepower)</li><li>Fortinet</li><li>Dell Networking</li>
+          <li>VPN, DNS, DHCP, routing</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Automation &amp; AI</h3>
+        <ul>
+          <li>PowerShell</li><li>Microsoft Graph API</li><li>Azure REST API</li>
+          <li>Azure CLI</li><li>Google Cloud CLI</li>
+          <li>Power Automate</li><li>Zapier</li><li>n8n</li>
+          <li>Microsoft Copilot &amp; Copilot AI agents</li>
+          <li>JSON · REST integration</li><li>Firebase / Firestore</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Monitoring &amp; service management</h3>
+        <ul>
+          <li>Arctic Wolf MDR</li>
+          <li>ManageEngine OpManager</li><li>ManageEngine Helpdesk</li><li>ManageEngine Password Manager Pro</li>
+          <li>New Relic</li><li>Zabbix</li>
+          <li>Jira Service Management</li><li>ITGlue</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Business systems</h3>
+        <ul>
+          <li>Sage 200 / 300</li><li>Odoo ERP</li><li>HubSpot CRM</li>
+          <li>Custom financial &amp; audit platforms</li>
+          <li>Oracle Fusion HCM (foundations)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== CERTIFICATIONS =============== -->
+<section id="certifications" class="section">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">Verified credentials</p>
+      <h2>Certifications.</h2>
+      <p class="section-lede">15 active certifications across Microsoft, Sophos, Fortinet, Acronis, Oracle, Proofpoint, JumpCloud, Dell, and New Relic. Click any badge to verify.</p>
+    </header>
+
+    <div class="certs-grid">
+      <!-- Microsoft -->
+      <a class="cert" href="https://learn.microsoft.com/en-us/users/maxwellmiya-9962/credentials/3908ae80a8c2f543?ref=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener">
+        <img src="assets/badges/ms-az104.svg" alt="Microsoft Azure Administrator Associate" />
+        <span class="cert-name">Azure Administrator Associate</span>
+        <span class="cert-issuer">Microsoft · AZ-104</span>
+      </a>
+      <a class="cert" href="https://www.credly.com/badges/64a949c7-c394-41ac-8fce-e058877421d1/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/ms-copilot.png" alt="Microsoft M365 Copilot + Agents" />
+        <span class="cert-name">M365 Copilot + Agents</span>
+        <span class="cert-issuer">Microsoft · Technical Proficient</span>
+      </a>
+      <!-- Sophos -->
+      <a class="cert" href="https://www.credly.com/badges/038d3b9f-7236-4e95-b0ba-e8ca4c2d4ecd/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/sophos-firewall.png" alt="Sophos Firewall Architect" />
+        <span class="cert-name">Firewall Architect</span>
+        <span class="cert-issuer">Sophos</span>
+      </a>
+      <a class="cert" href="https://www.credly.com/badges/2798f2e1-bd20-4372-8cd3-c1a4990770ce/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/sophos-endpoint.png" alt="Sophos Endpoint Architect" />
+        <span class="cert-name">Endpoint Architect</span>
+        <span class="cert-issuer">Sophos</span>
+      </a>
+      <!-- Fortinet -->
+      <a class="cert" href="https://www.credly.com/badges/d75366ed-9b7e-4595-9d1b-a3a05e5a2472/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/fortinet-nse3.png" alt="Fortinet NSE 3 Cybersecurity" />
+        <span class="cert-name">NSE 3 · Cybersecurity</span>
+        <span class="cert-issuer">Fortinet</span>
+      </a>
+      <!-- Proofpoint -->
+      <a class="cert" href="https://www.credly.com/badges/1453df12-8dfd-43c2-97dc-76733343f714/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/proofpoint.png" alt="Proofpoint AI Email Security Specialist" />
+        <span class="cert-name">AI Email Security Specialist</span>
+        <span class="cert-issuer">Proofpoint</span>
+      </a>
+      <!-- Acronis -->
+      <a class="cert" href="https://www.credly.com/badges/d43ac87f-1070-4a8c-a69f-4a0ea0ce37ac/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/acronis-security.png" alt="Acronis Advanced Security" />
+        <span class="cert-name">Advanced Security</span>
+        <span class="cert-issuer">Acronis · Cloud Tech Professional</span>
+      </a>
+      <a class="cert" href="https://www.credly.com/badges/53e19974-976d-4f60-9b3f-b64748086676/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/acronis-security-edr.png" alt="Acronis Advanced Security + EDR" />
+        <span class="cert-name">Advanced Security + EDR</span>
+        <span class="cert-issuer">Acronis · Cloud Tech Associate</span>
+      </a>
+      <a class="cert" href="https://www.credly.com/badges/16cb29f3-b487-4430-8276-9dea673cb39b/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/acronis-backup.png" alt="Acronis Advanced Backup" />
+        <span class="cert-name">Advanced Backup</span>
+        <span class="cert-issuer">Acronis · Cloud Tech Professional</span>
+      </a>
+      <a class="cert" href="https://www.credly.com/badges/b68098eb-f6c7-4ea7-ae7b-6bb9256de072/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/acronis-dr.png" alt="Acronis Advanced Disaster Recovery" />
+        <span class="cert-name">Advanced Disaster Recovery</span>
+        <span class="cert-issuer">Acronis · Cloud Tech Professional</span>
+      </a>
+      <a class="cert" href="https://www.credly.com/badges/ae230b7a-daf7-40d9-b175-96b5ab40d2c0/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/acronis-m365.png" alt="Acronis Microsoft 365" />
+        <span class="cert-name">Microsoft 365</span>
+        <span class="cert-issuer">Acronis · Cloud Tech Professional</span>
+      </a>
+      <!-- Oracle -->
+      <a class="cert" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2FA0DE1FC7F12D2D771B630C4018E9DB5EFF40365CC59B401A813EB27757E5AD" target="_blank" rel="noopener">
+        <img src="assets/badges/oracle-oci.png" alt="Oracle Cloud Infrastructure Foundations Associate" />
+        <span class="cert-name">OCI Foundations Associate</span>
+        <span class="cert-issuer">Oracle · 2025</span>
+      </a>
+      <a class="cert" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=FB897F0895B71ED1BBA9230C163FAE7AC1A872A2A5A9E6F6EC3D0EA3FC5E7C23" target="_blank" rel="noopener">
+        <img src="assets/badges/oracle-hcm.png" alt="Oracle Fusion HCM Process Essentials" />
+        <span class="cert-name">Fusion HCM Process Essentials</span>
+        <span class="cert-issuer">Oracle · Rel 1</span>
+      </a>
+      <!-- JumpCloud -->
+      <a class="cert" href="https://www.credly.com/badges/0f98b8f5-4716-4c5c-99b2-204a9642eb19/linked_in_profile" target="_blank" rel="noopener">
+        <img src="assets/badges/jumpcloud-core.png" alt="JumpCloud Certified Core" />
+        <span class="cert-name">Certified Core</span>
+        <span class="cert-issuer">JumpCloud · 2025</span>
+      </a>
+      <!-- Dell — swap href with your Credly link once available -->
+      <a class="cert" href="https://www.credly.com/badges/64a949c7-c394-41ac-8fce-e058877421d1/linked_in_profile" data-nolink="true" title="Verification link pending — replace href with Credly URL">
+        <img src="assets/badges/dell-networking.png" alt="Dell Networking Foundations" />
+        <span class="cert-name">Networking Foundations</span>
+        <span class="cert-issuer">Dell Technologies</span>
+      </a>
+      <!-- New Relic -->
+      <a class="cert" href="https://credentials.newrelic.com/2c3751cb-6b2e-477b-906c-f7cff646e9ad#acc.zxclLnvE" target="_blank" rel="noopener">
+        <img src="assets/badges/newrelic-nvf.svg" alt="New Relic Verified Foundation" />
+        <span class="cert-name">Verified Foundation (NVF)</span>
+        <span class="cert-issuer">New Relic</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- =============== EXPERIENCE TIMELINE =============== -->
+<section id="experience" class="section section-alt">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">Career</p>
+      <h2>Ten years of building, securing, and running.</h2>
+    </header>
+
+    <ol class="timeline">
+      <li class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <p class="tl-date">2025 – Present</p>
+          <h3>Cloud Infrastructure &amp; Security Engineer</h3>
+          <p class="tl-org">CloudIT Limited · EMEA · Remote</p>
+          <p>Enterprise cloud and security delivery across a multi-client base — threat visibility, cloud modernisation, automation, and complex incident resolution.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <p class="tl-date">2023 – Present</p>
+          <h3>Information Technology Infrastructure Engineer</h3>
+          <p class="tl-org">Ethical Trade Services Africa · Nairobi</p>
+          <p>Sole IT function for a supply-chain compliance consultancy — architected M365, security, and custom platforms end to end.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <p class="tl-date">2022 – 2024</p>
+          <h3>Systems &amp; Cloud Engineer</h3>
+          <p class="tl-org">Preeminent Technology · US MSP</p>
+          <p>Level 3 escalation and technical ownership across 10 SMB clients (~2,000 users). VMware vCenter cluster, Veeam DR, security and identity governance.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <p class="tl-date">2022 – 2023</p>
+          <h3>IT Infrastructure Consultant</h3>
+          <p class="tl-org">Origen Fresh Africa EPZ · Greenfield delivery</p>
+          <p>Delivered the entire technology foundation for a new manufacturing operation, 15% under budget.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <p class="tl-date">2020 – 2022</p>
+          <h3>IT Infrastructure Specialist</h3>
+          <p class="tl-org">Juanco Group · Kenya, Tanzania, Uganda</p>
+          <p>Multi-country infrastructure modernisation, AD-Google Workspace integration, Sage 200 ERP and HubSpot CRM.</p>
+        </div>
+      </li>
+      <li class="tl-item">
+        <div class="tl-marker"></div>
+        <div class="tl-body">
+          <p class="tl-date">2015 – 2020</p>
+          <h3>IT Support Specialist</h3>
+          <p class="tl-org">Silentnight Bedding Kenya · Kenya &amp; Morocco</p>
+          <p>M365 migration, Sage 300 ERP, multi-country support via Jira Service Desk. 35% improvement in system availability.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- =============== ABOUT =============== -->
+<section id="about" class="section">
+  <div class="container about-grid">
+    <header class="section-head about-head">
+      <p class="eyebrow">About</p>
+      <h2>How I work.</h2>
+    </header>
+    <div class="about-body">
+      <p>Over ten years I have worked across manufacturing, financial services, agriculture, healthcare, hospitality, and consulting — each sector with its own definition of "critical" and its own tolerance for downtime. What has stayed constant is the instinct: architect the environment, secure it, automate what should not be manual, and give leadership the information they need to decide with confidence.</p>
+      <p>I use AI tooling as an engineering accelerator — for PowerShell debugging, log pattern analysis, and API diagnostics — validated against real system logs and official documentation, never taken on trust. The point is faster diagnosis, not opinion.</p>
+      <p>I hold a Bachelor of Business Information Technology from Strathmore University, recognised in Germany's anabin database (H+). I am currently open to senior infrastructure, cloud, and security roles internationally, and I am EU Blue Card eligible.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =============== CONTACT =============== -->
+<section id="contact" class="section section-alt">
+  <div class="container contact-grid">
+    <header class="section-head contact-head">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's talk.</h2>
+      <p class="section-lede">Best for role enquiries, project conversations, or technical collaboration.</p>
+      <ul class="contact-list">
+        <li>
+          <span class="c-label">Email</span>
+          <a href="mailto:maxwell.miya@gmail.com">maxwell.miya@gmail.com</a>
+        </li>
+        <li>
+          <span class="c-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/maxwell-miya/" target="_blank" rel="noopener">linkedin.com/in/maxwell-miya</a>
+        </li>
+        <li>
+          <span class="c-label">Location</span>
+          <span>Nairobi, Kenya · UTC+3</span>
+        </li>
+      </ul>
+    </header>
+
+    <form id="contactForm" class="contact-form" action="contact.php" method="POST" novalidate>
+      <label class="field">
+        <span class="field-label">Name</span>
+        <input type="text" name="name" required autocomplete="name" />
+      </label>
+      <label class="field">
+        <span class="field-label">Email</span>
+        <input type="email" name="email" required autocomplete="email" />
+      </label>
+      <label class="field">
+        <span class="field-label">Company (optional)</span>
+        <input type="text" name="company" autocomplete="organization" />
+      </label>
+      <label class="field">
+        <span class="field-label">Message</span>
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <!-- Honeypot: hidden from real users, catches bots that fill every field -->
+      <div class="hp-field" aria-hidden="true">
+        <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+      </div>
+      <input type="hidden" name="loaded_at" id="loadedAt" />
+      <button type="submit" class="btn btn-primary btn-block">Send message</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- =============== FOOTER =============== -->
+<footer class="foot">
+  <div class="container foot-inner">
+    <p>© <span id="year"></span> Maxwell Miya. Built by hand.</p>
+    <ul class="foot-links">
+      <li><a href="mailto:maxwell.miya@gmail.com">Email</a></li>
+      <li><a href="https://www.linkedin.com/in/maxwell-miya/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="cv/Maxwell_Miya_CV.pdf" download>CV</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
